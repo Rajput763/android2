@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    tools:context=".symptoms">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/checkBox17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FATIQUE"
+            android:textColor="@android:color/background_light"
+            android:textSize="25sp" />
+
+        <CheckBox
+            android:id="@+id/checkBox24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MUSCLE WEAKNESS"
+            android:textColor="@android:color/background_light"
+            android:textSize="25sp"/>
+
+        <CheckBox
+            android:id="@+id/checkBox26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOW MOOD"
+            android:textColor="@android:color/background_light"
+            android:textSize="25sp"/>
+
+        <CheckBox
+            android:id="@+id/checkBox21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOSS OF APPETITE"
+            android:textColor="@android:color/background_light"
+            android:textSize="25sp"/>
+
+        <CheckBox
+            android:id="@+id/checkBox11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INCREASED THIRST"
+            android:textColor="@android:color/background_light"
+            android:textSize="25sp"/>
+
+        <CheckBox
+            android:id="@+id/checkBox25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CONFUSION"
+            android:textColor="@android:color/background_light"
+            android:textSize="25sp"/>
+
+        <CheckBox
+            android:id="@+id/checkBox19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SEVERELY SLURRED SPEECH"
+            android:textColor="@android:color/background_light"
+            android:textSize="25sp"/>
+
+        <CheckBox
+            android:id="@+id/checkBox23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOSS OF CO-ORDINATION"
+            android:textColor="@android:color/background_light"
+            android:textSize="25sp"/>
+
+        <CheckBox
+            android:id="@+id/checkBox35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VOMITTING"
+            android:textColor="@android:color/background_light"
+            android:textSize="25sp"/>
+
+        <CheckBox
+            android:id="@+id/checkBox44"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="IRREGULAR BREATHING"
+            android:textColor="@android:color/background_light"
+            android:textSize="25sp"/>
+
+        <CheckBox
+            android:id="@+id/checkBox47"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HYPOTHERMIA"
+            android:textColor="@android:color/background_light"
+            android:textSize="25sp"/>
+
+        <CheckBox
+            android:id="@+id/checkBox36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BEING UNCONSCIOUS"
+            android:textColor="@android:color/background_light"
+            android:textSize="25sp"/>
+
+        <CheckBox
+            android:id="@+id/checkBox45"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SNEEZING"
+            android:textColor="@android:color/background_light"
+            android:textSize="25sp"/>
+
+        <CheckBox
+            android:id="@+id/checkBox41"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BLOCKED OR RUNNY NOSE"
+            android:textColor="@android:color/background_light"
+            android:textSize="25sp"/>
+
+        <CheckBox
+            android:id="@+id/checkBox46"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RED,ITCHY"
+            android:textColor="@android:color/background_light"
+            android:textSize="25sp"/>
+
+        <CheckBox
+            android:id="@+id/checkBox43"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="COUGHING"  android:textColor="@android:color/background_light"
+            android:textSize="25sp" />
+
+        <CheckBox
+            android:id="@+id/checkBox37"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A RED,ITCHY RASH"   android:textColor="@android:color/background_light"
+            android:textSize="25sp"/>
+
+        <CheckBox
+            android:id="@+id/checkBox39"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WORSENING OF ASTHMA"  android:textColor="@android:color/background_light"
+            android:textSize="25sp" />
+
+        <CheckBox
+            android:id="@+id/checkBox22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PALE SKIN"   android:textColor="@android:color/background_light"
+            android:textSize="25sp"/>
+
+        <CheckBox
+            android:id="@+id/checkBox42"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TIREDNESS"   android:textColor="@android:color/background_light"
+            android:textSize="25sp"/>
+
+        <CheckBox
+            android:id="@+id/checkBox38"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BREATHLESSNESS"   android:textColor="@android:color/background_light"
+            android:textSize="25sp"/>
+
+        <CheckBox
+            android:id="@+id/checkBox20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FRQUENT INFECTIONS"   android:textColor="@android:color/background_light"
+            android:textSize="25sp"/>
+
+        <CheckBox
+            android:id="@+id/checkBox33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FREQUENT BLEEDING"   android:textColor="@android:color/background_light"
+            android:textSize="25sp"/>
+
+        <CheckBox
+            android:id="@+id/checkBox34"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A HIGH TEMPERATURE"
+            android:textColor="@android:color/background_light"
+            android:textSize="25sp"/>
+        />
+
+        <CheckBox
+            android:id="@+id/checkBox9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CHILLS AND SHIVERING"   android:textColor="@android:color/background_light"
+            android:textSize="25sp"/>
+
+        <CheckBox
+            android:id="@+id/checkBox58"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A FAST HEARTBEAT"   android:textColor="@android:color/background_light"
+            android:textSize="25sp"/>
+
+        <CheckBox
+            android:id="@+id/checkBox56"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FAST BREATHING"   android:textColor="@android:color/background_light"
+            android:textSize="25sp"/>
+
+        <CheckBox
+            android:id="@+id/checkBox55"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A LOW TEMPERATURE"   android:textColor="@android:color/background_light"
+            android:textSize="25sp"/>
+
+        <CheckBox
+            android:id="@+id/checkBox57"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SEVERE,PERSISTENT HEADACHES"  android:textColor="@android:color/background_light"
+            android:textSize="25sp" />
+
+        <CheckBox
+            android:id="@+id/checkBox32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SEIZURES"   android:textColor="@android:color/background_light"
+            android:textSize="25sp"/>
+
+        <CheckBox
+            android:id="@+id/checkBox40"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MENTAL CHANGES"   android:textColor="@android:color/background_light"
+            android:textSize="25sp"/>
+
+        <CheckBox
+            android:id="@+id/checkBox54"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PROGRESSIVE WEAKNESS"   android:textColor="@android:color/background_light"
+            android:textSize="25sp"/>
+
+        <CheckBox
+            android:id="@+id/checkBox30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A SORE THROAT"  android:textColor="@android:color/background_light"
+            android:textSize="25sp" />
+
+        <CheckBox
+            android:id="@+id/checkBox53"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FEELING VERY THIRSTY"  android:textColor="@android:color/background_light"
+            android:textSize="25sp" />
+
+        <CheckBox
+            android:id="@+id/checkBox52"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="URINATING MORE FREQUENTLY"   android:textColor="@android:color/background_light"
+            android:textSize="25sp"/>
+
+        <CheckBox
+            android:id="@+id/checkBox51"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FEELING VERY TIRED"   android:textColor="@android:color/background_light"
+            android:textSize="25sp"/>
+
+        <CheckBox
+            android:id="@+id/checkBox31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WEIGHT LOSS"   android:textColor="@android:color/background_light"
+            android:textSize="25sp"/>
+
+        <CheckBox
+            android:id="@+id/checkBox50"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BLURRED VISION"   android:textColor="@android:color/background_light"
+            android:textSize="25sp"/>
+
+        <CheckBox
+            android:id="@+id/checkBox49"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CUTS HEAL SLOWLY"   android:textColor="@android:color/background_light"
+            android:textSize="25sp"/>
+
+        <CheckBox
+            android:id="@+id/checkBox29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FEELING SICK"   android:textColor="@android:color/background_light"
+            android:textSize="25sp"/>
+
+        <CheckBox
+            android:id="@+id/checkBox18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="STOMACH CRAMPS"  android:textColor="@android:color/background_light"
+            android:textSize="25sp" />
+
+        <CheckBox
+            android:id="@+id/checkBox13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A LACK OF ENERGY"  android:textColor="@android:color/background_light"
+            android:textSize="25sp" />
+
+        <CheckBox
+            android:id="@+id/checkBox48"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ACHING MUSCLES"   android:textColor="@android:color/background_light"
+            android:textSize="25sp"/>
+
+        <CheckBox
+            android:id="@+id/checkBox15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SWEATS AND CHILLS"  android:textColor="@android:color/background_light"
+            android:textSize="25sp" />
+
+        <CheckBox
+            android:id="@+id/checkBox10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MUSCLE PAIN"  android:textColor="@android:color/background_light"
+            android:textSize="25sp" />
+
+        <CheckBox
+            android:id="@+id/checkBox14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DIARRHOEA"   android:textColor="@android:color/background_light"
+            android:textSize="25sp"/>
+
+        <CheckBox
+            android:id="@+id/checkBox16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HEADACHES"  android:textColor="@android:color/background_light"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CLICK TO CHECK"  android:textColor="@android:color/background_light"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+</ScrollView>

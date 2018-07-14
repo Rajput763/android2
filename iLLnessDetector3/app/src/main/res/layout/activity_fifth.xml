@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fifth">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="407dp"
+        android:layout_height="516dp"
+        android:background="@android:color/background_dark"
+        android:text="fever (raised temperature) body rash sore throat swollen glands headache upset stomach joint aches and pains muscle pain."
+        android:textColor="@android:color/background_light"
+        android:textSize="33sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="1dp" />
+</android.support.constraint.ConstraintLayout>

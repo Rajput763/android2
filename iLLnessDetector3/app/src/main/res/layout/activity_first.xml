@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".first">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="378dp"
+        android:layout_height="512dp"
+        android:background="@android:color/background_dark"
+        android:text="Confusion. Vomiting. Seizures. Slow breathing (less than eight breaths a minute). Irregular breathing (a gap of more than 10 seconds between breaths) .Blue-tinged skin or pale skin. Low body temperature (hypothermia) .Passing out (unconsciousness) .and can't be awakened."
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="3dp" />
+
+</android.support.constraint.ConstraintLayout>
